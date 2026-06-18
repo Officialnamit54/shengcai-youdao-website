@@ -20,8 +20,8 @@ export function SiteHeader() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
-      <div className="section-shell flex min-h-28 flex-wrap items-center justify-between gap-4 py-3 xl:flex-nowrap xl:py-0">
-        <Link href="#home" className="flex min-w-0 items-center gap-4" aria-label="返回首页">
+      <div className="section-shell flex min-h-28 flex-wrap items-center justify-between gap-4 py-3 xl:flex-nowrap xl:gap-8 xl:py-0">
+        <Link href="#home" className="flex min-w-0 shrink-0 items-center gap-4 xl:gap-5" aria-label="返回首页">
           <Image
             src="/brand/shengcai-logo-horizontal.svg"
             alt={`${site.shortName}企业服务集团 Logo`}
@@ -39,10 +39,10 @@ export function SiteHeader() {
         </Link>
 
         <nav
-          className="order-3 flex min-w-0 basis-full items-center justify-start gap-6 overflow-visible whitespace-nowrap xl:order-none xl:basis-auto xl:justify-center xl:gap-14"
+          className="order-3 flex min-w-0 basis-full items-center justify-start gap-6 overflow-visible whitespace-nowrap xl:order-none xl:flex-1 xl:justify-start xl:gap-12"
           aria-label="主导航"
         >
-          <div className="relative shrink-0">
+          <div className="relative shrink-0 xl:ml-2">
             <button
               type="button"
               onClick={() => setTaxOpen((value) => !value)}
@@ -87,16 +87,6 @@ export function SiteHeader() {
             </Link>
           ))}
         </nav>
-
-        <div className="hidden shrink-0 text-xl font-medium text-slate-400 xl:block">
-          <a href="#contact" className="transition hover:text-brand">
-            登录
-          </a>
-          <span className="px-2">/</span>
-          <a href="#contact" className="transition hover:text-brand">
-            注册
-          </a>
-        </div>
 
         <button
           type="button"
