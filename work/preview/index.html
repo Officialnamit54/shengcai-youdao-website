@@ -1,0 +1,1028 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>生财有道｜企业财税合规与资质服务</title>
+    <meta
+      name="description"
+      content="广东省生财有道企业服务集团有限公司，面向跨境电商老板、电商老板、企业老板和初创公司，提供企业税务合规、跨境电商财税合规、股权架构、共享财务总监等服务。"
+    />
+    <style>
+      :root {
+        --brand: #eb1d27;
+        --ink: #1a1c24;
+        --muted: #5d6b7c;
+        --mist: #f8f5f4;
+        --rose: #fff1f2;
+        --line: #f0d9dc;
+        --gold: #d8a031;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+        background: linear-gradient(180deg, #fff 0%, #fffafa 42%, #f8f5f4 100%);
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      section {
+        scroll-margin-top: 112px;
+      }
+
+      .shell {
+        width: min(1180px, calc(100% - 32px));
+        margin-inline: auto;
+      }
+
+      .header {
+        position: fixed;
+        inset: 0 0 auto;
+        z-index: 70;
+        border-bottom: 1px solid #e6e6e6;
+        background: rgba(255, 255, 255, 0.96);
+        backdrop-filter: blur(14px);
+      }
+
+      .nav {
+        display: flex;
+        min-height: 112px;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 34px;
+      }
+
+      .logo {
+        width: min(190px, 22vw);
+        min-width: 138px;
+      }
+
+      .brand-cluster {
+        display: flex;
+        flex: 0 0 auto;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .brand-divider {
+        width: 1px;
+        height: 64px;
+        background: var(--brand);
+      }
+
+      .brand-stamp {
+        display: grid;
+        width: 76px;
+        height: 76px;
+        place-items: center;
+        border-radius: 6px;
+        background: var(--brand);
+        color: #fff;
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 1.1;
+        text-align: center;
+      }
+
+      .nav-links {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        gap: clamp(18px, 4vw, 64px);
+        overflow: visible;
+        scrollbar-width: none;
+      }
+
+      .nav-links::-webkit-scrollbar {
+        display: none;
+      }
+
+      .nav-links a {
+        flex: 0 0 auto;
+        padding: 10px 0;
+        color: var(--ink);
+        font-size: clamp(18px, 2.2vw, 30px);
+        font-weight: 500;
+        white-space: nowrap;
+      }
+
+      .nav-links a.hot,
+      .nav-links a:hover {
+        color: var(--brand);
+      }
+
+      .nav-item {
+        position: relative;
+        flex: 0 0 auto;
+      }
+
+      .tax-trigger {
+        border: 0;
+        background: transparent;
+        padding: 10px 0;
+        color: var(--brand);
+        font: inherit;
+        font-size: clamp(18px, 2.2vw, 30px);
+        font-weight: 500;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .tax-dropdown {
+        position: absolute;
+        top: calc(100% + 22px);
+        left: 50%;
+        z-index: 90;
+        width: 220px;
+        border-radius: 6px;
+        background: #fff;
+        padding: 18px 0;
+        text-align: center;
+        box-shadow: 0 18px 45px rgba(128, 30, 36, 0.12);
+        transform: translateX(-50%);
+      }
+
+      .tax-dropdown[hidden] {
+        display: none;
+      }
+
+      .tax-dropdown a {
+        display: block;
+        padding: 14px 18px;
+        color: var(--ink);
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      .tax-dropdown a:hover {
+        background: var(--rose);
+        color: var(--brand);
+      }
+
+      .auth-links {
+        flex: 0 0 auto;
+        color: #999;
+        font-size: clamp(18px, 2vw, 26px);
+        font-weight: 500;
+        white-space: nowrap;
+      }
+
+      .auth-links a:hover {
+        color: var(--brand);
+      }
+
+      .portal {
+        padding-top: 112px;
+        background: #f2f3f5;
+      }
+
+      .portal-grid {
+        position: relative;
+        min-height: 380px;
+        padding: 56px 0 48px;
+      }
+
+      .advisor-avatar {
+        position: absolute;
+        top: 86px;
+        right: 18%;
+        width: 68px;
+        height: 68px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: #fff;
+        padding: 4px;
+        box-shadow: 0 12px 26px rgba(20, 20, 20, 0.16);
+      }
+
+      .portal-copy {
+        max-width: 620px;
+        padding-top: 86px;
+      }
+
+      .portal-copy h1 {
+        max-width: 600px;
+      }
+
+      .portal-copy p {
+        max-width: 610px;
+        font-size: 18px;
+      }
+
+      .stats {
+        padding: 64px 0;
+        background: #fff;
+      }
+
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0 18px 45px rgba(128, 30, 36, 0.08);
+        overflow: hidden;
+      }
+
+      .stat {
+        min-height: 148px;
+        display: grid;
+        place-items: center;
+        padding: 22px;
+        text-align: center;
+        border-right: 1px solid var(--line);
+      }
+
+      .stat:last-child {
+        border-right: 0;
+      }
+
+      .stat strong {
+        display: block;
+        color: var(--brand);
+        font-size: clamp(34px, 4vw, 52px);
+        line-height: 1;
+      }
+
+      .stat span {
+        display: block;
+        margin-top: 12px;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.6;
+      }
+
+      .section {
+        padding: 84px 0;
+      }
+
+      .mist {
+        background: var(--mist);
+      }
+
+      .intro {
+        display: grid;
+        grid-template-columns: 1fr 0.92fr;
+        align-items: center;
+        gap: 56px;
+      }
+
+      .eyebrow {
+        color: var(--brand);
+        font-size: 15px;
+        font-weight: 700;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        margin: 16px 0 24px;
+        font-size: clamp(38px, 4.5vw, 58px);
+        line-height: 1.18;
+        letter-spacing: 0;
+      }
+
+      h2 {
+        margin: 12px 0 16px;
+        font-size: clamp(30px, 3.6vw, 44px);
+        line-height: 1.2;
+        letter-spacing: 0;
+      }
+
+      p {
+        color: var(--muted);
+        line-height: 1.9;
+      }
+
+      .media {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--rose);
+        padding: 12px;
+        box-shadow: 0 18px 45px rgba(128, 30, 36, 0.08);
+      }
+
+      .media img {
+        border-radius: 6px;
+      }
+
+      .section-head {
+        margin-bottom: 38px;
+        display: grid;
+        grid-template-columns: 0.85fr 1.15fr;
+        gap: 28px;
+        align-items: end;
+      }
+
+      .section-head.center {
+        max-width: 760px;
+        margin-inline: auto;
+        text-align: center;
+        display: block;
+      }
+
+      .grid-4 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+      }
+
+      .grid-6 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 16px;
+      }
+
+      .card {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        padding: 26px;
+        box-shadow: 0 18px 45px rgba(128, 30, 36, 0.08);
+      }
+
+      .icon {
+        display: grid;
+        width: 52px;
+        height: 52px;
+        place-items: center;
+        border-radius: 8px;
+        background: var(--brand);
+        color: #fff;
+        font-size: 22px;
+        font-weight: 800;
+      }
+
+      .logo-box {
+        display: grid;
+        min-height: 96px;
+        place-items: center;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        color: #6b7280;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+      }
+
+      .more {
+        color: #999;
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .stage-card {
+        min-height: 280px;
+      }
+
+      .stage-card strong {
+        display: grid;
+        width: 42px;
+        height: 42px;
+        place-items: center;
+        border-radius: 999px;
+        background: var(--brand);
+        color: #fff;
+      }
+
+      .stage-list {
+        display: grid;
+        gap: 12px;
+        margin-top: 22px;
+      }
+
+      .stage-list span {
+        border-radius: 6px;
+        background: var(--rose);
+        padding: 12px 14px;
+        color: var(--brand);
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .timeline {
+        position: relative;
+        max-width: 880px;
+        margin: 0 auto;
+      }
+
+      .timeline::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+        width: 1px;
+        background: rgba(235, 29, 39, 0.22);
+      }
+
+      .timeline-item {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 46px;
+        margin: 26px 0;
+      }
+
+      .timeline-item:nth-child(even) .timeline-card {
+        grid-column: 2;
+      }
+
+      .timeline-card {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        padding: 24px;
+        box-shadow: 0 18px 45px rgba(128, 30, 36, 0.08);
+      }
+
+      .timeline-card b {
+        color: var(--brand);
+        font-size: 32px;
+      }
+
+      .timeline-dot {
+        position: absolute;
+        left: 50%;
+        top: 30px;
+        width: 18px;
+        height: 18px;
+        border: 4px solid #fff;
+        border-radius: 999px;
+        background: var(--brand);
+        transform: translateX(-50%);
+        box-shadow: 0 0 0 1px rgba(235, 29, 39, 0.18);
+      }
+
+      .contact {
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 28px;
+      }
+
+      .contact-panel {
+        border-radius: 8px;
+        background: var(--ink);
+        padding: 34px;
+        color: #fff;
+      }
+
+      .contact-panel p {
+        color: rgba(255, 255, 255, 0.72);
+      }
+
+      form {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        padding: 28px;
+        box-shadow: 0 18px 45px rgba(128, 30, 36, 0.08);
+      }
+
+      .fields {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+      }
+
+      label {
+        display: grid;
+        gap: 8px;
+        font-size: 14px;
+        font-weight: 800;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 13px 14px;
+        font: inherit;
+        outline: none;
+      }
+
+      textarea {
+        min-height: 128px;
+        resize: vertical;
+      }
+
+      .full {
+        grid-column: 1 / -1;
+      }
+
+      .btn {
+        display: inline-flex;
+        min-height: 48px;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        border-radius: 6px;
+        background: var(--brand);
+        padding: 0 24px;
+        color: #fff;
+        font: inherit;
+        font-weight: 800;
+        cursor: pointer;
+      }
+
+      .success {
+        display: none;
+        margin-top: 14px;
+        border-radius: 6px;
+        background: var(--rose);
+        padding: 12px;
+        color: var(--brand);
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .footer {
+        background: var(--ink);
+        padding: 54px 0 24px;
+        color: #fff;
+      }
+
+      .footer-grid {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr 0.8fr 0.7fr;
+        gap: 34px;
+      }
+
+      .footer p,
+      .footer a {
+        color: rgba(255, 255, 255, 0.62);
+        font-size: 14px;
+        line-height: 1.8;
+      }
+
+      .footer-logo {
+        display: inline-flex;
+        border-radius: 8px;
+        background: #fff;
+        padding: 12px;
+      }
+
+      .footer-logo img {
+        width: 220px;
+      }
+
+      .qr {
+        max-width: 150px;
+        border-radius: 8px;
+        background: #fff;
+        padding: 10px;
+      }
+
+      .copyright {
+        margin-top: 34px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding-top: 18px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 12px;
+      }
+
+      .float-contact {
+        position: fixed;
+        right: 22px;
+        top: 50%;
+        z-index: 80;
+        transform: translateY(-50%);
+        border: 1px solid rgba(235, 29, 39, 0.16);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.96);
+        box-shadow: 0 18px 45px rgba(128, 30, 36, 0.12);
+      }
+
+      .float-contact a,
+      .float-contact button {
+        display: grid;
+        width: 92px;
+        height: 92px;
+        place-items: center;
+        border: 0;
+        background: transparent;
+        color: var(--brand);
+        cursor: pointer;
+      }
+
+      .float-contact button {
+        border-bottom: 1px solid rgba(235, 29, 39, 0.12);
+      }
+
+      .float-qr {
+        position: absolute;
+        right: 108px;
+        top: 0;
+        width: 172px;
+        border: 1px solid rgba(235, 29, 39, 0.16);
+        border-radius: 8px;
+        background: #fff;
+        padding: 12px;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateX(10px);
+        transition: 0.2s ease;
+      }
+
+      .float-contact:hover .float-qr,
+      .float-contact:focus-within .float-qr {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateX(0);
+      }
+
+      .mobile-contact {
+        display: none;
+      }
+
+      @media (max-width: 1100px) {
+        body {
+          padding-bottom: 78px;
+        }
+
+        .nav {
+          flex-wrap: wrap;
+          align-content: center;
+          gap: 10px 18px;
+          padding: 10px 0 14px;
+        }
+
+        .nav-links {
+          order: 3;
+          flex-basis: 100%;
+          justify-content: flex-start;
+          overflow-x: auto;
+        }
+
+        .brand-divider,
+        .brand-stamp {
+          display: none;
+        }
+
+        .stats-grid,
+        .intro,
+        .section-head,
+        .grid-4,
+        .grid-6,
+        .contact,
+        .footer-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .portal {
+          padding-top: 168px;
+        }
+
+        .advisor-avatar {
+          right: 24px;
+          top: 24px;
+          width: 56px;
+          height: 56px;
+        }
+
+        .auth-links {
+          display: none;
+        }
+
+        .timeline::before {
+          left: 9px;
+        }
+
+        .timeline-item,
+        .timeline-item:nth-child(even) .timeline-card {
+          grid-template-columns: 1fr;
+          grid-column: auto;
+          padding-left: 34px;
+        }
+
+        .timeline-dot {
+          left: 9px;
+        }
+
+        .stat {
+          border-right: 0;
+          border-bottom: 1px solid var(--line);
+        }
+
+        .float-contact {
+          display: none;
+        }
+
+        .mobile-contact {
+          position: fixed;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          z-index: 80;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 12px;
+          border-top: 1px solid rgba(235, 29, 39, 0.12);
+          background: rgba(255, 255, 255, 0.96);
+          padding: 12px 16px;
+          box-shadow: 0 -10px 30px rgba(128, 30, 36, 0.12);
+        }
+
+        .mobile-contact a {
+          display: inline-flex;
+          min-height: 48px;
+          align-items: center;
+          justify-content: center;
+          border-radius: 6px;
+          font-size: 14px;
+          font-weight: 800;
+        }
+
+        .mobile-contact a:first-child {
+          background: var(--brand);
+          color: #fff;
+        }
+
+        .mobile-contact a:last-child {
+          border: 1px solid rgba(235, 29, 39, 0.25);
+          color: var(--brand);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="shell nav">
+        <a class="brand-cluster" href="#home" aria-label="返回首页">
+          <img class="logo" src="/brand/shengcai-logo-horizontal.svg" alt="生财有道企业服务集团 Logo" />
+          <span class="brand-divider" aria-hidden="true"></span>
+          <span class="brand-stamp">生财<br />有道</span>
+        </a>
+        <nav class="nav-links" aria-label="主导航">
+          <div class="nav-item">
+            <button class="tax-trigger" type="button" aria-expanded="true">财税合规</button>
+            <div class="tax-dropdown" role="menu">
+              <a href="#solutions">财税合规顾问</a>
+              <a href="#services">香港及海外财税</a>
+              <a href="#contact">境内财税</a>
+            </div>
+          </div>
+          <a href="#services">股权激励</a>
+          <a href="#resources">课程培训</a>
+          <a class="hot" href="#about">发展历程</a>
+          <a href="#tools">应用中心</a>
+          <a href="#contact">我的服务</a>
+        </nav>
+        <div class="auth-links">
+          <a href="#contact">登录</a>
+          <span> / </span>
+          <a href="#contact">注册</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="portal">
+        <div class="shell portal-grid">
+          <div class="advisor-avatar">
+            <img src="/images/qr-placeholder.svg" alt="顾问头像占位" />
+          </div>
+          <div class="portal-copy">
+            <span class="eyebrow">企业服务入口</span>
+            <h1>选择适合企业阶段的财税合规服务</h1>
+            <p>通过顶部导航和财税合规下拉菜单，快速进入顾问、海外财税、境内财税等服务内容。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="shell stats-grid">
+          <div class="stat"><div><strong>10 年+</strong><span>企业财税与经营服务经验</span></div></div>
+          <div class="stat"><div><strong>99%+</strong><span>服务过程满意度目标</span></div></div>
+          <div class="stat"><div><strong>1000+</strong><span>企业咨询与辅导案例沉淀</span></div></div>
+          <div class="stat"><div><strong>20 名+</strong><span>财税、工商、管理顾问团队</span></div></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="shell intro">
+          <div>
+            <span class="eyebrow">生财有道企业服务集团</span>
+            <h1>老板身边的财税合规与企业经营顾问</h1>
+            <p>广东省生财有道企业服务集团有限公司聚焦跨境电商财税合规、电商财税合规、企业管理咨询、财务咨询、工商注册、代理记账、税务筹划等服务。</p>
+            <p>我们以顾问式服务帮助企业梳理账税、架构、流程与经营数据，让老板在关键节点看得清风险、算得明利润、做得出决策。</p>
+            <p>面向跨境电商老板、电商老板、企业老板和初创公司，提供从基础合规到财务管理升级的一站式解决方案。</p>
+          </div>
+          <div class="media">
+            <img src="/images/photo-placeholder-team.svg" alt="企业团队或办公环境图片预留位" />
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section mist">
+        <div class="shell">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">我们的优势</span>
+              <h2>用专业团队和标准流程，支撑长期服务</h2>
+            </div>
+            <p>不只处理单个问题，而是从企业阶段、业务模式、账税资料和管理流程出发，帮助企业建立更稳定的合规基础。</p>
+          </div>
+          <div class="grid-4">
+            <article class="card"><span class="icon">队</span><h3>团队</h3><p>以财税顾问、工商服务、企业管理咨询团队为基础，为企业提供更完整的业务判断。</p></article>
+            <article class="card"><span class="icon">质</span><h3>质量</h3><p>坚持以质量为本、以客户需求为导向，重视服务流程、资料交付和后续跟进。</p></article>
+            <article class="card"><span class="icon">懂</span><h3>理解</h3><p>长期关注跨境电商、电商企业和成长型企业经营场景，理解老板面对的真实问题。</p></article>
+            <article class="card"><span class="icon">库</span><h3>资源</h3><p>沉淀企业注册、账税合规、股权架构、共享财务管理等多类型服务资料与案例。</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="resources" class="section">
+        <div class="shell">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">合作企业单位</span>
+              <h2>预留客户与合作伙伴展示位</h2>
+            </div>
+            <a class="more" href="#contact">查看更多 &gt;&gt;</a>
+          </div>
+          <div class="grid-6">
+            <div class="logo-box">跨境卖家 A</div>
+            <div class="logo-box">电商企业 B</div>
+            <div class="logo-box">初创公司 C</div>
+            <div class="logo-box">供应链企业 D</div>
+            <div class="logo-box">品牌出海 E</div>
+            <div class="logo-box">本地企业 F</div>
+            <div class="logo-box">跨境卖家 G</div>
+            <div class="logo-box">电商企业 H</div>
+            <div class="logo-box">初创公司 I</div>
+            <div class="logo-box">供应链企业 J</div>
+            <div class="logo-box">品牌出海 K</div>
+            <div class="logo-box">本地企业 L</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="solutions" class="section mist">
+        <span id="tools"></span>
+        <div class="shell">
+          <div class="section-head center">
+            <span class="eyebrow">专注企业财税合规管理</span>
+            <h2>按企业阶段配置服务内容</h2>
+            <p>从创业搭建到成熟管理，围绕工商、财税、股权、财务管理与经营分析，为企业提供阶段化服务。</p>
+          </div>
+          <div class="grid-4">
+            <article class="card stage-card"><strong>1</strong><h3>创业期</h3><div class="stage-list"><span>工商注册</span><span>代理记账</span><span>财税基础</span><span>合规资料清单</span></div></article>
+            <article class="card stage-card"><strong>2</strong><h3>成长期</h3><div class="stage-list"><span>财税外包</span><span>利润核算</span><span>财务制度体系</span><span>费用与库存流程</span></div></article>
+            <article class="card stage-card"><strong>3</strong><h3>发展期</h3><div class="stage-list"><span>财务顾问</span><span>税务筹划</span><span>股权架构</span><span>融资规划</span></div></article>
+            <article class="card stage-card"><strong>4</strong><h3>成熟期</h3><div class="stage-list"><span>共享财务总监</span><span>组织内控</span><span>经营报表</span><span>定期复盘</span></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="shell">
+          <div class="section-head center">
+            <span class="eyebrow">我们的发展历程</span>
+            <h2>围绕企业经营需求持续升级</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item"><div class="timeline-card"><b>2026</b><p>升级企业服务集团官网，强化跨境电商财税合规与老板顾问服务。</p></div><span class="timeline-dot"></span></div>
+            <div class="timeline-item"><div class="timeline-card"><b>2025</b><p>完善共享财务总监、股权架构、企业财税合规等服务模块。</p></div><span class="timeline-dot"></span></div>
+            <div class="timeline-item"><div class="timeline-card"><b>2024</b><p>持续服务电商企业、跨境电商企业和初创公司，沉淀行业服务流程。</p></div><span class="timeline-dot"></span></div>
+            <div class="timeline-item"><div class="timeline-card"><b>2023</b><p>拓展工商注册、代理记账、税务筹划、财务咨询等一站式企业服务。</p></div><span class="timeline-dot"></span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section mist">
+        <div class="shell contact">
+          <div class="contact-panel">
+            <span class="eyebrow">联系我们</span>
+            <h2>先聊清楚问题，再决定服务怎么做</h2>
+            <p>留下企业基本情况和当前困惑，我们会从合规风险、财务管理和经营阶段三个角度给出初步判断。</p>
+            <p>电话：400-000-0000</p>
+            <p>邮箱：service@example.com</p>
+            <p>地址：广东省 · 请替换为办公地址</p>
+          </div>
+          <form id="consult-form">
+            <h2>免费咨询表单</h2>
+            <p>当前为前端演示表单，已包含基础校验。正式上线时可接入后端、企业微信或 CRM。</p>
+            <div class="fields">
+              <label>姓名<input name="name" placeholder="请输入姓名" /></label>
+              <label>手机号<input name="phone" placeholder="请输入手机号" inputmode="tel" /></label>
+              <label>公司名称<input name="company" placeholder="请输入公司名称" /></label>
+              <label>所在城市<input name="city" placeholder="例如：广州" /></label>
+              <label class="full">咨询需求<textarea name="need" placeholder="请简单描述企业阶段、当前痛点或希望咨询的服务"></textarea></label>
+            </div>
+            <button class="btn" type="submit">提交咨询</button>
+            <div class="success" id="success">信息已在前端校验通过。接入后端后，可在这里对接 CRM、企业微信或邮件通知。</div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="shell footer-grid">
+        <div>
+          <div class="footer-logo"><img src="/brand/shengcai-logo-horizontal.svg" alt="生财有道企业服务集团 Logo" /></div>
+          <p>广东省生财有道企业服务集团有限公司</p>
+          <p>面向跨境电商老板、电商老板、企业老板与初创公司，提供税务合规、财务咨询、股权架构、共享财务总监等企业服务。</p>
+        </div>
+        <div><h3>服务链接</h3><p>企业税务合规服务</p><p>跨境电商财税合规</p><p>股权架构</p><p>共享财务总监</p></div>
+        <div><h3>网站导航</h3><p><a href="#solutions">财税合规</a></p><p><a href="#services">股权激励</a></p><p><a href="#resources">课程培训</a></p><p><a href="#contact">我的服务</a></p></div>
+        <div><h3>二维码</h3><div class="qr"><img src="/images/qr-placeholder.svg" alt="企业微信二维码占位图" /></div><p>替换为企业微信或公众号二维码</p></div>
+      </div>
+      <div class="shell copyright">© 2026 广东省生财有道企业服务集团有限公司. All rights reserved. 备案号占位</div>
+    </footer>
+
+    <aside class="float-contact" aria-label="悬浮联系方式">
+      <div class="float-qr">
+        <img src="/images/qr-placeholder.svg" alt="企业微信二维码占位图" />
+      </div>
+      <button type="button" aria-label="查看二维码">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 3h6v6H3V3Zm12 0h6v6h-6V3ZM3 15h6v6H3v-6Zm12 0h2v2h-2v-2Zm4 0h2v6h-6v-2h4v-4Zm-8-4h2v2h-2v-2Zm4 0h6v2h-6v-2Zm-4 4h2v6h-2v-6Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <a href="tel:400-000-0000" aria-label="电话咨询 400-000-0000">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M5.5 6.5c.4 6.1 5.9 11.6 12 12l2-2.6c.4-.5.3-1.2-.2-1.6l-3-2.1c-.5-.3-1.1-.3-1.6.1l-1.1.9c-1.4-.8-2.6-2-3.4-3.4l.9-1.1c.4-.5.4-1.1.1-1.6l-2.1-3c-.4-.5-1.1-.6-1.6-.2l-2 1.6Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M6 19h12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+        </svg>
+      </a>
+    </aside>
+
+    <div class="mobile-contact" aria-label="移动端联系方式">
+      <a href="tel:400-000-0000">电话咨询</a>
+      <a href="#contact">在线留言</a>
+    </div>
+
+    <script>
+      const taxTrigger = document.querySelector(".tax-trigger");
+      const taxDropdown = document.querySelector(".tax-dropdown");
+      taxTrigger.addEventListener("click", () => {
+        const isOpen = taxTrigger.getAttribute("aria-expanded") === "true";
+        taxDropdown.hidden = isOpen;
+        taxTrigger.setAttribute("aria-expanded", String(!isOpen));
+      });
+
+      document.querySelectorAll(".tax-dropdown a").forEach((link) => {
+        link.addEventListener("click", () => {
+          document.querySelectorAll(".nav-links > a").forEach((item) => item.classList.remove("hot"));
+          taxDropdown.hidden = true;
+          taxTrigger.setAttribute("aria-expanded", "false");
+        });
+      });
+
+      document.querySelectorAll(".nav-links > a").forEach((link) => {
+        link.addEventListener("click", () => {
+          document.querySelectorAll(".nav-links > a").forEach((item) => item.classList.remove("hot"));
+          link.classList.add("hot");
+          taxDropdown.hidden = true;
+          taxTrigger.setAttribute("aria-expanded", "false");
+        });
+      });
+
+      const form = document.querySelector("#consult-form");
+      const success = document.querySelector("#success");
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const data = new FormData(form);
+        const phone = String(data.get("phone") || "").trim();
+        const required = ["name", "phone", "company", "city", "need"];
+        const missing = required.some((key) => !String(data.get(key) || "").trim());
+        if (missing) {
+          alert("请完整填写咨询信息。");
+          return;
+        }
+        if (!/^1[3-9]\d{9}$/.test(phone)) {
+          alert("请填写有效手机号。");
+          return;
+        }
+        success.style.display = "block";
+        form.reset();
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+<svg width="720" height="460" viewBox="0 0 720 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="460" rx="24" fill="#FFF8F0"/>
+  <rect x="34" y="34" width="652" height="392" rx="20" fill="white" stroke="#F0D7A7" stroke-width="2" stroke-dasharray="12 10"/>
+  <rect x="184" y="104" width="352" height="230" rx="18" fill="#FFF1F2"/>
+  <rect x="228" y="154" width="264" height="18" rx="9" fill="#EB1D27"/>
+  <rect x="228" y="202" width="204" height="14" rx="7" fill="#F3B0B5"/>
+  <rect x="228" y="240" width="238" height="14" rx="7" fill="#F3B0B5"/>
+  <rect x="228" y="278" width="164" height="14" rx="7" fill="#D8A031"/>
+  <text x="360" y="382" text-anchor="middle" fill="#7A3137" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="24" font-weight="700">课程 / 资料封面预留位</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg width="720" height="460" viewBox="0 0 720 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="460" rx="24" fill="#FFF7F7"/>
+  <rect x="34" y="34" width="652" height="392" rx="20" fill="white" stroke="#F3D4D7" stroke-width="2" stroke-dasharray="12 10"/>
+  <rect x="120" y="132" width="480" height="176" rx="18" fill="#FFF1F2"/>
+  <path d="M212 266L286 194L338 238L374 210L508 294H168L212 266Z" fill="#EB1D27" opacity="0.84"/>
+  <circle cx="492" cy="178" r="24" fill="#D8A031"/>
+  <text x="360" y="364" text-anchor="middle" fill="#7A3137" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="24" font-weight="700">案例图片预留位</text>
+</svg>

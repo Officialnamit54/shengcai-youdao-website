@@ -1,0 +1,21 @@
+<svg width="900" height="640" viewBox="0 0 900 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">生财有道企业服务集团 Logo</title>
+  <desc id="desc">红色钱树图形与生财有道中英文品牌字样</desc>
+  <defs>
+    <linearGradient id="scyd-red" x1="120" y1="260" x2="780" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F21C24"/>
+      <stop offset="1" stop-color="#E81723"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(230 18) scale(0.49)" fill="url(#scyd-red)">
+    <path d="M450 62C505 62 553 94 575 142C596 136 621 138 643 147C697 169 730 223 720 280C754 303 774 340 774 382C774 451 718 507 649 507C584 507 530 457 525 393C519 422 532 469 574 544C537 557 494 563 450 563C406 563 363 557 326 544C368 469 381 422 375 393C370 457 316 507 251 507C182 507 126 451 126 382C126 340 146 303 180 280C170 223 203 169 257 147C279 138 304 136 325 142C347 94 395 62 450 62ZM450 100C407 100 370 125 354 164L346 184L326 175C310 168 291 167 274 174C237 189 214 227 220 267L223 288L205 299C179 315 164 346 164 382C164 430 203 469 251 469C299 469 338 430 338 382C338 365 334 349 325 335L302 299L342 285C373 274 394 245 394 212H432C432 242 424 269 408 292H492C476 269 468 242 468 212H506C506 245 527 274 558 285L598 299L575 335C566 349 562 365 562 382C562 430 601 469 649 469C697 469 736 430 736 382C736 346 721 315 695 299L677 288L680 267C686 227 663 189 626 174C609 167 590 168 574 175L554 184L546 164C530 125 493 100 450 100Z"/>
+    <path d="M399 263H501V396H399V263ZM437 301V358H463V301H437Z"/>
+    <path d="M327 232L379 284L327 336L275 284L327 232ZM327 284L315 296L327 308L339 296L327 284Z"/>
+    <path d="M573 232L625 284L573 336L521 284L573 232ZM573 284L561 296L573 308L585 296L573 284Z"/>
+    <path d="M250 368H332V450H250V368ZM287 405V413H295V405H287Z"/>
+    <path d="M568 368H650V450H568V368ZM605 405V413H613V405H605Z"/>
+  </g>
+  <text x="450" y="428" text-anchor="middle" fill="#EB1D27" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="92" font-weight="800" letter-spacing="16">生·财·有·道</text>
+  <text x="450" y="520" text-anchor="middle" fill="#EB1D27" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="400" letter-spacing="18">SHENGCAIYOUDAO</text>
+  <text x="450" y="596" text-anchor="middle" fill="#EB1D27" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="34" font-weight="500" letter-spacing="42">企业服务集团</text>
+</svg>
