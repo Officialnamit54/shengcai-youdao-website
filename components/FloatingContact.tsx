@@ -19,15 +19,15 @@ export function FloatingContact() {
           >
             <QrCode size={30} strokeWidth={1.8} />
           </button>
-          <div className="pointer-events-none absolute right-[108px] top-0 w-44 translate-x-2 rounded-lg border border-brand/15 bg-white p-3 text-center opacity-0 shadow-soft transition group-hover:pointer-events-auto group-hover:translate-x-0 group-hover:opacity-100 group-focus-within:pointer-events-auto group-focus-within:translate-x-0 group-focus-within:opacity-100">
+          <div className="pointer-events-none absolute right-[108px] top-0 w-52 translate-x-2 rounded-[22px] border border-brand/15 bg-white p-4 text-center opacity-0 shadow-[0_18px_40px_rgba(26,28,36,0.18)] transition group-hover:pointer-events-auto group-hover:translate-x-0 group-hover:opacity-100 group-focus-within:pointer-events-auto group-focus-within:translate-x-0 group-focus-within:opacity-100">
             <Image
-              src="/images/amzcfo/wechat-kefu.png"
+              src={site.qrImage}
               alt="企业微信客服二维码"
               width={240}
               height={240}
-              className="h-auto w-full rounded-md"
+              className="h-auto w-full rounded-2xl"
             />
-            <p className="mt-2 text-xs font-semibold text-ink">扫码咨询顾问</p>
+            <p className="mt-3 text-xs font-semibold text-ink">扫码添加微信，获取一对一咨询支持</p>
           </div>
         </div>
         <a

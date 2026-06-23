@@ -14,8 +14,8 @@ const taxDropdown = [
 
 export function SiteHeader() {
   const [open, setOpen] = React.useState(false);
-  const [taxOpen, setTaxOpen] = React.useState(true);
-  const [activeHref, setActiveHref] = React.useState("#about");
+  const [taxOpen, setTaxOpen] = React.useState(false);
+  const [activeHref, setActiveHref] = React.useState("#solutions");
   const otherNavItems = navItems.slice(1);
 
   return (
@@ -39,7 +39,7 @@ export function SiteHeader() {
         </Link>
 
         <nav
-          className="order-3 flex min-w-0 basis-full items-center justify-start gap-6 overflow-visible whitespace-nowrap xl:order-none xl:flex-1 xl:justify-start xl:gap-12"
+          className="order-3 hidden min-w-0 basis-full items-center justify-start gap-6 overflow-visible whitespace-nowrap xl:order-none xl:flex xl:flex-1 xl:justify-start xl:gap-12"
           aria-label="主导航"
         >
           <div className="relative shrink-0 xl:ml-2">
@@ -93,7 +93,7 @@ export function SiteHeader() {
           aria-label={open ? "关闭导航" : "打开导航"}
           aria-expanded={open}
           onClick={() => setOpen((value) => !value)}
-          className="hidden h-11 w-11 items-center justify-center rounded-md border border-brand/15 bg-white text-brand"
+          className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-brand/15 bg-white text-brand xl:hidden"
         >
           {open ? <X size={22} /> : <Menu size={22} />}
         </button>

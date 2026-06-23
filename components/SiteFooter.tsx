@@ -18,6 +18,14 @@ export function SiteFooter() {
           </div>
           <p className="mt-4 text-xs text-white/50">{site.name}</p>
           <p className="mt-5 max-w-md text-sm leading-7 text-white/60">{site.description}</p>
+          <div className="mt-6 grid gap-3 text-sm text-white/70">
+            <a href={`tel:${site.phone}`} className="hover:text-white">
+              电话：{site.phone}
+            </a>
+            <a href={`mailto:${site.email}`} className="break-all hover:text-white">
+              邮箱：{site.email}
+            </a>
+          </div>
         </div>
         <div>
           <h3 className="text-sm font-semibold text-white">服务链接</h3>
@@ -41,13 +49,13 @@ export function SiteFooter() {
         </div>
         <div>
           <h3 className="text-sm font-semibold text-white">二维码</h3>
-          <div className="mt-4 rounded-lg bg-white p-3">
+          <div className="mt-4 rounded-[24px] bg-white p-3 shadow-[0_18px_35px_rgba(0,0,0,0.18)]">
             <Image
-              src="/images/amzcfo/wechat-kefu.png"
+              src={site.qrImage}
               alt="企业微信客服二维码"
               width={240}
               height={240}
-              className="h-auto w-full"
+              className="h-auto w-full rounded-2xl"
             />
           </div>
           <p className="mt-3 text-xs text-white/50">扫码添加顾问，获取一对一咨询支持</p>

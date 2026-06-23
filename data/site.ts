@@ -70,7 +70,8 @@ export const site = {
   tagline: "老板身边的财税合规与经营顾问团队",
   phone: "15710756868",
   wechat: "请替换为企业微信",
-  email: "",
+  email: "13332968941@163.com",
+  qrImage: "/images/custom/wechat-qr.jpg",
   address: "公司总部位于深圳市龙华区建设东路18号青年创业园A栋307",
   description:
     "面向跨境电商老板、电商老板、企业老板与初创公司，提供税务合规、跨境电商财税合规、股权架构、共享财务总监等企业服务。"
