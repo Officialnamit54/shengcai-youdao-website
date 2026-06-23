@@ -41,10 +41,10 @@ export function QualificationIntro() {
           <div className="absolute inset-0 translate-x-5 translate-y-5 rounded-[36px] bg-gradient-to-br from-brand/10 to-[#d8a031]/10 blur-sm" />
           <div className="relative overflow-hidden rounded-[34px] border border-white/80 bg-white p-4 shadow-[0_28px_70px_rgba(26,28,36,0.12)]">
             <Image
-              src="/images/custom/uploads/hero-upload-2-clean.jpg"
-              alt="财税合规企业顾问适配图"
-              width={1600}
-              height={1040}
+              src="/images/custom/generated/finance-scene-hero-2.png"
+              alt="财税顾问讲解报表场景图"
+              width={1536}
+              height={1024}
               className="h-auto w-full rounded-[26px] object-cover"
             />
             <div className="absolute bottom-8 left-8 max-w-xs rounded-2xl bg-white/92 p-5 shadow-[0_18px_35px_rgba(26,28,36,0.16)] backdrop-blur">

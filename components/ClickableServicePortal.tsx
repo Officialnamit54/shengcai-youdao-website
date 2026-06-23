@@ -45,10 +45,10 @@ export function ClickableServicePortal() {
             <div className="relative overflow-hidden rounded-[34px] border border-white/80 bg-white p-4 shadow-[0_28px_70px_rgba(128,30,36,0.16)]">
               <div className="absolute inset-x-6 top-0 h-24 rounded-b-[28px] bg-gradient-to-b from-brand/10 to-transparent" />
               <Image
-                src="/images/custom/uploads/hero-upload-1-clean.jpg"
-                alt="跨境电商股权激励适配图"
-                width={1600}
-                height={1040}
+                src="/images/custom/generated/finance-scene-hero-1.png"
+                alt="财务规划顾问场景图"
+                width={1695}
+                height={928}
                 className="h-auto w-full rounded-[26px] object-cover"
                 priority
               />
