@@ -47,6 +47,11 @@
 
   <rect x="790" y="580" width="234" height="150" rx="24" fill="white"/>
   <rect x="1052" y="580" width="216" height="150" rx="24" fill="white"/>
+  <rect x="1096" y="246" width="222" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.72"/>
+  <circle cx="1126" cy="263" r="8" fill="#E66A6F"/>
+  <circle cx="1152" cy="263" r="8" fill="#F4B168"/>
+  <circle cx="1178" cy="263" r="8" fill="#78B7A5"/>
+  <rect x="1200" y="255" width="82" height="16" rx="8" fill="#E7EEF8"/>
 
   <circle cx="870" cy="656" r="34" fill="#FFF1EA"/>
   <circle cx="948" cy="632" r="18" fill="#E66A6F"/>
@@ -59,6 +64,25 @@
   <rect x="1140" y="592" width="34" height="100" rx="17" fill="#78B7A5"/>
   <rect x="1190" y="646" width="34" height="46" rx="17" fill="#F4B168"/>
   <path d="M1084 672C1113 632 1142 622 1160 624C1182.4 626.4 1203 645 1214 654" stroke="#E66A6F" stroke-width="12" stroke-linecap="round"/>
+
+  <circle cx="1204" cy="808" r="70" fill="#FFFFFF" fill-opacity="0.92"/>
+  <circle cx="1204" cy="808" r="48" fill="#F8FBFA"/>
+  <path d="M1204 756L1222 764V789C1222 820 1204 834 1204 834C1204 834 1186 820 1186 789V764L1204 756Z" fill="#5D88C6"/>
+  <path d="M1194 791L1202 799L1216 782" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1102 804H1146" stroke="#E5EDF7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1262 804H1306" stroke="#E5EDF7" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="1082" cy="804" r="18" fill="#E66A6F"/>
+  <circle cx="1326" cy="804" r="18" fill="#78B7A5"/>
+  <path d="M1048 862C1054 832.4 1074.67 817.667 1085.2 814.6C1104.4 821 1116.33 843.667 1119.8 854H1048V862Z" fill="#E66A6F"/>
+  <path d="M1292 862C1298 832.4 1318.67 817.667 1329.2 814.6C1348.4 821 1360.33 843.667 1363.8 854H1292V862Z" fill="#78B7A5"/>
+
+  <rect x="286" y="254" width="140" height="48" rx="24" fill="#FFFFFF" fill-opacity="0.88"/>
+  <path d="M316 278H350" stroke="#5D88C6" stroke-width="10" stroke-linecap="round"/>
+  <path d="M358 278H396" stroke="#E6D6D4" stroke-width="10" stroke-linecap="round"/>
+
+  <path d="M604 302L660 286" stroke="#E66A6F" stroke-width="10" stroke-linecap="round"/>
+  <path d="M620 336L676 320" stroke="#F4B168" stroke-width="10" stroke-linecap="round"/>
+  <path d="M636 370L692 354" stroke="#78B7A5" stroke-width="10" stroke-linecap="round"/>
 
   <defs>
     <linearGradient id="bg1" x1="141" y1="94" x2="1461" y2="923" gradientUnits="userSpaceOnUse">

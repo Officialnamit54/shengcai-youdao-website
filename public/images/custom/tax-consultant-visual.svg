@@ -43,6 +43,13 @@
 
   <rect x="780" y="576" width="214" height="200" rx="26" fill="white"/>
   <rect x="1114" y="576" width="214" height="200" rx="26" fill="white"/>
+  <rect x="1034" y="592" width="48" height="192" rx="24" fill="#FFFDFC"/>
+
+  <circle cx="1058" cy="648" r="32" fill="#FFF2EB"/>
+  <path d="M1058 624L1072 630V650C1072 674 1058 686 1058 686C1058 686 1044 674 1044 650V630L1058 624Z" fill="#E66A6F"/>
+  <path d="M1050 650L1057 657L1068 642" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1038 716H1078" stroke="#E7EEF8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1038 744H1070" stroke="#DCEFE8" stroke-width="10" stroke-linecap="round"/>
 
   <rect x="826" y="624" width="122" height="104" rx="24" fill="#FFF6F0"/>
   <rect x="844" y="646" width="24" height="24" rx="8" fill="#E66A6F"/>
@@ -56,10 +63,18 @@
   <path d="M1184 660H1208" stroke="white" stroke-width="10" stroke-linecap="round"/>
   <path d="M1196 648V672" stroke="white" stroke-width="10" stroke-linecap="round"/>
   <rect x="1158" y="706" width="126" height="10" rx="5" fill="#E1EDE8"/>
+  <rect x="1144" y="270" width="172" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.7"/>
+  <circle cx="1170" cy="282" r="7" fill="#78B7A5"/>
+  <circle cx="1192" cy="282" r="7" fill="#E66A6F"/>
+  <rect x="1210" y="274" width="76" height="16" rx="8" fill="#E7EEF8"/>
 
   <path d="M1018 688C1060 632 1104 608 1146 606" stroke="#E66A6F" stroke-width="14" stroke-linecap="round"/>
   <circle cx="1018" cy="688" r="10" fill="#E66A6F"/>
   <circle cx="1146" cy="606" r="10" fill="#F4B168"/>
+
+  <circle cx="666" cy="248" r="28" fill="#E6F2F8"/>
+  <path d="M650 248H682" stroke="#5D88C6" stroke-width="10" stroke-linecap="round"/>
+  <path d="M666 232V264" stroke="#5D88C6" stroke-width="10" stroke-linecap="round"/>
 
   <defs>
     <linearGradient id="bg2" x1="126" y1="80" x2="1458" y2="918" gradientUnits="userSpaceOnUse">
