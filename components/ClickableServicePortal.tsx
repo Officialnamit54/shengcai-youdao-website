@@ -45,10 +45,10 @@ export function ClickableServicePortal() {
             <div className="relative overflow-hidden rounded-[34px] border border-white/80 bg-white p-4 shadow-[0_28px_70px_rgba(128,30,36,0.16)]">
               <div className="absolute inset-x-6 top-0 h-24 rounded-b-[28px] bg-gradient-to-b from-brand/10 to-transparent" />
               <Image
-                src="/images/amzcfo/service-1.png"
-                alt="企业财税合规服务展示图"
-                width={496}
-                height={388}
+                src="/images/custom/equity-incentive-hero.svg"
+                alt="跨境电商股权激励适配图"
+                width={1600}
+                height={1040}
                 className="h-auto w-full rounded-[26px] object-cover"
                 priority
               />
