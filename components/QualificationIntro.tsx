@@ -24,11 +24,11 @@ export function QualificationIntro() {
         </div>
         <div className="rounded-lg border border-brand/10 bg-rose p-3 shadow-soft">
           <Image
-            src="/images/photo-placeholder-team.svg"
-            alt="企业团队或办公环境图片预留位"
-            width={960}
-            height={640}
-            className="h-auto w-full rounded-md"
+            src="/images/amzcfo/banner-1.png"
+            alt="跨境财税服务展示图"
+            width={1920}
+            height={420}
+            className="h-auto w-full rounded-md object-cover"
           />
         </div>
       </div>

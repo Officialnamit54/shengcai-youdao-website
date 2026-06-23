@@ -19,10 +19,12 @@ export function ContactSection() {
               <PhoneCall size={18} className="text-gold" />
               {site.phone}
             </a>
-            <a href={`mailto:${site.email}`} className="flex items-center gap-3 text-white/85">
-              <Mail size={18} className="text-gold" />
-              {site.email}
-            </a>
+            {site.email ? (
+              <a href={`mailto:${site.email}`} className="flex items-center gap-3 text-white/85">
+                <Mail size={18} className="text-gold" />
+                {site.email}
+              </a>
+            ) : null}
             <p className="flex items-center gap-3 text-white/85">
               <MapPin size={18} className="text-gold" />
               {site.address}

@@ -21,8 +21,8 @@ export function FloatingContact() {
           </button>
           <div className="pointer-events-none absolute right-[108px] top-0 w-44 translate-x-2 rounded-lg border border-brand/15 bg-white p-3 text-center opacity-0 shadow-soft transition group-hover:pointer-events-auto group-hover:translate-x-0 group-hover:opacity-100 group-focus-within:pointer-events-auto group-focus-within:translate-x-0 group-focus-within:opacity-100">
             <Image
-              src="/images/qr-placeholder.svg"
-              alt="企业微信二维码占位图"
+              src="/images/amzcfo/wechat-kefu.png"
+              alt="企业微信客服二维码"
               width={240}
               height={240}
               className="h-auto w-full rounded-md"

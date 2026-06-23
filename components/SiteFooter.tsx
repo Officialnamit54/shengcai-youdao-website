@@ -43,14 +43,14 @@ export function SiteFooter() {
           <h3 className="text-sm font-semibold text-white">二维码</h3>
           <div className="mt-4 rounded-lg bg-white p-3">
             <Image
-              src="/images/qr-placeholder.svg"
-              alt="企业微信二维码占位图"
+              src="/images/amzcfo/wechat-kefu.png"
+              alt="企业微信客服二维码"
               width={240}
               height={240}
               className="h-auto w-full"
             />
           </div>
-          <p className="mt-3 text-xs text-white/50">替换为企业微信或公众号二维码</p>
+          <p className="mt-3 text-xs text-white/50">扫码添加顾问，获取一对一咨询支持</p>
         </div>
       </div>
       <div className="section-shell mt-10 border-t border-white/10 pt-6 text-xs text-white/50">

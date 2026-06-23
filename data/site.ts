@@ -68,10 +68,10 @@ export const site = {
   name: "广东省生财有道企业服务集团有限公司",
   shortName: "生财有道",
   tagline: "老板身边的财税合规与经营顾问团队",
-  phone: "400-000-0000",
+  phone: "15710756868",
   wechat: "请替换为企业微信",
-  email: "service@example.com",
-  address: "广东省 · 请替换为办公地址",
+  email: "",
+  address: "公司总部位于深圳市龙华区建设东路18号青年创业园A栋307",
   description:
     "面向跨境电商老板、电商老板、企业老板与初创公司，提供税务合规、跨境电商财税合规、股权架构、共享财务总监等企业服务。"
 };
