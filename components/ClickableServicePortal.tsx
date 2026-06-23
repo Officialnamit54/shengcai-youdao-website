@@ -39,30 +39,15 @@ export function ClickableServicePortal() {
 
         <div className="relative z-10">
           <div className="relative mx-auto max-w-[640px]">
-            <div className="absolute -top-5 right-6 hidden rounded-full border border-white/80 bg-white/90 px-4 py-2 text-xs font-semibold text-brand shadow-lg backdrop-blur md:block">
-              精细化财税顾问服务
-            </div>
-            <div className="relative overflow-hidden rounded-[34px] border border-white/80 bg-white p-4 shadow-[0_28px_70px_rgba(128,30,36,0.16)]">
-              <div className="absolute inset-x-6 top-0 h-24 rounded-b-[28px] bg-gradient-to-b from-brand/10 to-transparent" />
+            <div className="overflow-hidden rounded-[34px] border border-white/80 bg-white shadow-[0_28px_70px_rgba(128,30,36,0.16)]">
               <Image
                 src="/images/custom/generated/finance-scene-hero-1.png"
                 alt="财务规划顾问场景图"
                 width={1695}
                 height={928}
-                className="h-auto w-full rounded-[26px] object-cover"
+                className="block h-auto w-full object-contain"
                 priority
               />
-            </div>
-            <div className="absolute -bottom-6 left-4 hidden w-44 rounded-[26px] border border-white/80 bg-white p-3 shadow-[0_20px_40px_rgba(26,28,36,0.16)] md:block">
-              <Image
-                src="/images/amzcfo/case-1.png"
-                alt="顾问案例头像"
-                width={240}
-                height={240}
-                className="h-36 w-full rounded-[18px] object-cover"
-              />
-              <p className="mt-3 text-sm font-semibold text-ink">顾问案例展示</p>
-              <p className="mt-1 text-xs leading-6 text-slate-500">围绕企业阶段配置更贴合的财税与经营支持。</p>
             </div>
           </div>
         </div>
